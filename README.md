@@ -1,6 +1,6 @@
 # Hello rails back-end
 
-## 👥 View
+## View
 
   [Link to front-end](https://github.com/Yacoubou-seidou/hello-react-front-end)
 <a name="readme-top"></a>
