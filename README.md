@@ -1,5 +1,8 @@
 # Hello rails back-end
 
+## View
+
+  [Link to front-end](https://github.com/Yacoubou-seidou/hello-react-front-end)
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
@@ -86,8 +89,22 @@ Install this project with:
 To run the project, execute the following command:
 
 ```
-  rails s
-  hello-react-front-end:
+# config/initializers/cors.rb
+
+Rails.application.config.middleware.insert_before 0, Rack::Cors do
+  allow do
+    origins 'http://localhost:3001' # Change this to your frontend URL to avoid cors errors
+  end
+end
+```
+```
+then terminal run :
+rails s
+```
+```
+also_need_front_end:
+git clone  https://github.com/Yacoubou-seidou/hello-react-front-end.git
+Follow instruction in the readme.md file
 ```
 
 ### Run tests
